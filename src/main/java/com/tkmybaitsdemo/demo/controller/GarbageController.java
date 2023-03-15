@@ -26,11 +26,11 @@ public class GarbageController {
     @ApiOperation(value = "根据学生id查询学生信息", notes = "根据学生id查询学生信息")
     @GetMapping(value = "/{garName}")
     ResultBody searchGarbage(@RequestBody @PathVariable(name = "garName") String garName) {
-        GarbageVO garbage = garbageService.searchGarbage(garName);
-        if(garbage.getName().isEmpty()){
+        GarbageVO garbageVO = garbageService.searchGarbage(garName);
+        if(garbageVO.getId() == null){
             return ResultBody.error("Sorry, we don't have any junk with this name included at the moment!");
         }
-        return ResultBody.success(garbage);
+        return ResultBody.success(garbageVO);
     }
 
     @ApiOperation(value = "根据学生id查询学生信息", notes = "根据学生id查询学生信息")

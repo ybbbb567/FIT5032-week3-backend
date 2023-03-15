@@ -33,7 +33,7 @@ public class GarbageServiceImpl extends AbstractService<Garbage> implements Garb
         criteria.andEqualTo("name",garName);
         Garbage garbage = garbageMapper.selectOneByExample(example);
         GarbageVO garbageVO = new GarbageVO();
-        if(garbage.getName() == null){
+        if(garbage == null){
             return garbageVO;
         }
         Example example1 = new Example(Dispose.class);

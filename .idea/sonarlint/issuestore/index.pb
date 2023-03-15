@@ -6,8 +6,6 @@
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 n
 >src/main/java/com/tkmybaitsdemo/demo/util/AbstractService.java,9\2\925184826c6cf3292569f2ec3c5e7942137e1a60
-v
-Fsrc/main/java/com/tkmybaitsdemo/demo/controller/ArticleController.java,c\5\c5037931e3479a5c9e78ff80c00c71b7cd630719
 n
 >src/main/java/com/tkmybaitsdemo/demo/mapper/ArticleMapper.java,e\7\e761634b711d36834b5cf9ee0ec10fad333d60a3
 p
@@ -64,7 +62,5 @@ y
 Isrc/main/java/com/tkmybaitsdemo/demo/service/impl/StudentServiceImpl.java,0\2\02e74982c3453b2ec43089e5ee0baa4b22c85f19
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-v
-Fsrc/main/java/com/tkmybaitsdemo/demo/controller/DisposeController.java,3\1\31c89cc773c3885753fdde6c63d79ffaac0e47c8
 i
 9src/main/java/com/tkmybaitsdemo/demo/DemoApplication.java,3\7\3780b0d0a4be7a1e44995da1eebd4c2b0ad5fd7c
