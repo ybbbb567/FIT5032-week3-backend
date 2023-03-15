@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tkmybaitsdemo.demo.mapper.StudentContentMapper">
+  <resultMap id="BaseResultMap" type="com.tkmybaitsdemo.demo.entity.StudentContent">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="nike" jdbcType="VARCHAR" property="nike" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="student_id" jdbcType="INTEGER" property="studentId" />
+  </resultMap>
+</mapper>
