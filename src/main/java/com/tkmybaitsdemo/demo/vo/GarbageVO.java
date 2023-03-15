@@ -26,7 +26,7 @@ public class GarbageVO {
     private String category;
 
     @ApiModelProperty(name = "degradation",notes = "degradation")
-    private Integer degradation;
+    private String degradation;
 
     @ApiModelProperty(name = "disposeWay",notes = "dispose way")
     private String disposeWay;

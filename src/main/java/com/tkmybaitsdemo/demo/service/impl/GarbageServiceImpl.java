@@ -40,11 +40,15 @@ public class GarbageServiceImpl extends AbstractService<Garbage> implements Garb
         Example.Criteria criteria1 = example1.createCriteria();
         criteria1.andEqualTo("name",garbage.getCategory());
         Dispose dispose = disposeMapper.selectOneByExample(example1);
+        if(dispose == null){
+            garbageVO.setDisposeWay("no way");
+        }else {
+            garbageVO.setDisposeWay(dispose.getDisposeWay());
+        }
         garbageVO.setId(garbage.getId());
         garbageVO.setName(garbage.getName());
         garbageVO.setCategory(garbage.getCategory());
         garbageVO.setDegradation(garbage.getDegradation());
-        garbageVO.setDisposeWay(dispose.getDisposeWay());
         return garbageVO;
     }
 
