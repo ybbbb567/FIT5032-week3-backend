@@ -16,3 +16,15 @@ i
 9src/main/java/com/tkmybaitsdemo/demo/DemoApplication.java,3\7\3780b0d0a4be7a1e44995da1eebd4c2b0ad5fd7c
 f
 6src/main/java/com/tkmybaitsdemo/demo/vo/GarbageVO.java,2\1\213121353c46f7337db06435b4e51e7ce70f7756
+p
+@src/main/java/com/tkmybaitsdemo/demo/exception/BizException.java,7\f\7ff976ddee2f12e77d23127be575640f5db97a9e
+x
+Hsrc/main/java/com/tkmybaitsdemo/demo/handler/GlobalExceptionHandler.java,9\1\91032d9dbd69cfe7b0a7436ac107a3f92c0bfb28
+n
+>src/main/java/com/tkmybaitsdemo/demo/mapper/ArticleMapper.java,e\7\e761634b711d36834b5cf9ee0ec10fad333d60a3
+n
+>src/main/java/com/tkmybaitsdemo/demo/mapper/DisposeMapper.java,0\7\07b96804cd170a48d3dd9712f4d9bdbd9423d278
+n
+>src/main/java/com/tkmybaitsdemo/demo/mapper/GarbageMapper.java,c\6\c62d358f24fd9160ae3bf9b16aa329659f8dee65
+j
+:src/main/java/com/tkmybaitsdemo/demo/util/BaseService.java,e\e\ee9cbf78af6464f89ea9657b078bcc1a55e2d4fe
