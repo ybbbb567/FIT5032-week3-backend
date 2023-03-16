@@ -31,11 +31,12 @@ public class GarbageServiceImpl extends AbstractService<Garbage> implements Garb
         Example example = new Example(Garbage.class);
         Example.Criteria criteria = example.createCriteria();
         criteria.andLike("name","%"+garName.toLowerCase()+"%");
-        Garbage garbage = garbageMapper.selectOneByExample(example);
+        List<Garbage> garbageList = garbageMapper.selectByExample(example);
         GarbageVO garbageVO = new GarbageVO();
-        if(garbage == null){
+        if(garbageList == null){
             return garbageVO;
         }
+        Garbage garbage = garbageList.get(0);
         Example example1 = new Example(Dispose.class);
         Example.Criteria criteria1 = example1.createCriteria();
         criteria1.andEqualTo("name",garbage.getCategory());
