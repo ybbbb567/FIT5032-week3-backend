@@ -30,7 +30,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = BizException.class)
     @ResponseBody
     public  ResultBody bizExceptionHandler(HttpServletRequest req, BizException e){
-        logger.error("发生业务异常！原因是：{}",e.getErrorMsg());
+        logger.error("Business Error!Reason:{}",e.getErrorMsg());
         return ResultBody.error(e.getErrorCode(),e.getErrorMsg());
     }
 
@@ -43,8 +43,8 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value =NullPointerException.class)
     @ResponseBody
     public ResultBody exceptionHandler(HttpServletRequest req, NullPointerException e){
-        logger.error("发生空指针异常！原因是:",e);
-        return ResultBody.error("500","空指针异常了！");
+        logger.error("null pointer! Reason:",e);
+        return ResultBody.error("500","null pointer！");
     }
 
 
@@ -57,8 +57,8 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value =Exception.class)
     @ResponseBody
     public ResultBody exceptionHandler(HttpServletRequest req, Exception e){
-        logger.error("未知异常！原因是:",e);
-        return ResultBody.error("500","系统异常请联系管理员！");
+        logger.error("Unknown Error!Reason:",e);
+        return ResultBody.error("500","System Error!");
     }
     /**
      * 处理入参检验异常
@@ -69,7 +69,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = MethodArgumentNotValidException.class)
     @ResponseBody
     public ResultBody exceptionHandler(HttpServletRequest req, MethodArgumentNotValidException e){
-        logger.error("参数异常！原因是:",e);
-        return ResultBody.error("500", "参数异常："+Objects.requireNonNull(e.getBindingResult().getFieldError()).getDefaultMessage());
+        logger.error("Param Error! Reason:",e);
+        return ResultBody.error("500", "Param Error:"+Objects.requireNonNull(e.getBindingResult().getFieldError()).getDefaultMessage());
     }
 }

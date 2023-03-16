@@ -22,7 +22,7 @@ import java.util.List;
 public class DisposeController {
     private final DisposeService disposeService;
 
-    @ApiOperation(value = "根据学生id查询学生信息", notes = "根据学生id查询学生信息")
+    @ApiOperation(value = "get dispose way for a garbage's category", notes = "get dispose way for a garbage' category")
     @GetMapping(value = "/{cateName}")
     ResultBody getDispWay(@RequestBody @PathVariable(name = "cateName") String cateName) {
         String disposeWay = disposeService.getDispWay(cateName);

@@ -30,7 +30,7 @@ public class GarbageServiceImpl extends AbstractService<Garbage> implements Garb
     public GarbageVO searchGarbage(String garName) {
         Example example = new Example(Garbage.class);
         Example.Criteria criteria = example.createCriteria();
-        criteria.andEqualTo("name",garName);
+        criteria.andEqualTo("name",garName.toLowerCase());
         Garbage garbage = garbageMapper.selectOneByExample(example);
         GarbageVO garbageVO = new GarbageVO();
         if(garbage == null){
