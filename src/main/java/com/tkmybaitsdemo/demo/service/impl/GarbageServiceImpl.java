@@ -30,21 +30,25 @@ public class GarbageServiceImpl extends AbstractService<Garbage> implements Garb
     public GarbageVO searchGarbage(String garName) {
         Example example = new Example(Garbage.class);
         Example.Criteria criteria = example.createCriteria();
-        criteria.andEqualTo("name",garName);
+        criteria.andEqualTo("name",garName.toLowerCase());
         Garbage garbage = garbageMapper.selectOneByExample(example);
         GarbageVO garbageVO = new GarbageVO();
-        if(garbage.getName() == null){
+        if(garbage == null){
             return garbageVO;
         }
         Example example1 = new Example(Dispose.class);
         Example.Criteria criteria1 = example1.createCriteria();
         criteria1.andEqualTo("name",garbage.getCategory());
         Dispose dispose = disposeMapper.selectOneByExample(example1);
+        if(dispose == null){
+            garbageVO.setDisposeWay("no way");
+        }else {
+            garbageVO.setDisposeWay(dispose.getDisposeWay());
+        }
         garbageVO.setId(garbage.getId());
         garbageVO.setName(garbage.getName());
         garbageVO.setCategory(garbage.getCategory());
         garbageVO.setDegradation(garbage.getDegradation());
-        garbageVO.setDisposeWay(dispose.getDisposeWay());
         return garbageVO;
     }
 

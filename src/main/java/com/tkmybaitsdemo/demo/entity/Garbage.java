@@ -26,5 +26,5 @@ public class Garbage implements Serializable {
     private String category;
 
     @ApiModelProperty(name = "degradation",notes = "degradation")
-    private Integer degradation;
+    private String degradation;
 }
