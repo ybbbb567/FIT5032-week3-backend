@@ -2,16 +2,20 @@ server:
   port: 8080
 spring:
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
+#    type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
     druid:
-        url: jdbc:mysql://localhost:3306/ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
-        username: root
-        password: zhb22153753
+        url: jdbc:mysql://rew.mysql.database.azure.com:3306/ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        username: asdfgzxcvb10086
+        password: "!68001bvc"
+#         url: jdbc:mysql://localhost:3306/ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+#         username: root
+#         password: zhb22153753
   devtools:
     restart:
-      enabled: true  #设置开启热部署
-      additional-paths: src/main/java #重启目录
+      enabled: true
+      additional-paths: src/main/java
+
       exclude: WEB-INF/**
 logging:
   level:

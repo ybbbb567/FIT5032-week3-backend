@@ -23,17 +23,17 @@ import java.util.List;
 public class GarbageController {
     private final GarbageService garbageService;
 
-    @ApiOperation(value = "根据学生id查询学生信息", notes = "根据学生id查询学生信息")
+    @ApiOperation(value = "search garbage information", notes = "search garbage information")
     @GetMapping(value = "/{garName}")
     ResultBody searchGarbage(@RequestBody @PathVariable(name = "garName") String garName) {
-        GarbageVO garbage = garbageService.searchGarbage(garName);
-        if(garbage.getName().isEmpty()){
+        GarbageVO garbageVO = garbageService.searchGarbage(garName);
+        if(garbageVO.getId() == null){
             return ResultBody.error("Sorry, we don't have any junk with this name included at the moment!");
         }
-        return ResultBody.success(garbage);
+        return ResultBody.success(garbageVO);
     }
 
-    @ApiOperation(value = "根据学生id查询学生信息", notes = "根据学生id查询学生信息")
+    @ApiOperation(value = "search all garbage in one category", notes = "search all garbage in one category")
     @GetMapping(value = "/category/{garCategory}")
     ResultBody getCategoryInclude(@RequestBody @PathVariable(name = "garCategory")String garCategory) {
         List<Garbage> garbageList = garbageService.getCategoryInclude(garCategory);

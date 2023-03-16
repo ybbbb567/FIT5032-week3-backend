@@ -1,16 +1,13 @@
 package com.tkmybaitsdemo.demo.service.impl;
 
 import com.tkmybaitsdemo.demo.entity.Article;
-import com.tkmybaitsdemo.demo.entity.Student;
 import com.tkmybaitsdemo.demo.mapper.ArticleMapper;
-import com.tkmybaitsdemo.demo.mapper.StudentContentMapper;
 import com.tkmybaitsdemo.demo.service.ArticleService;
 import com.tkmybaitsdemo.demo.util.AbstractService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**

@@ -22,10 +22,8 @@ public class Knife4jConfiguration {
     public Docket defaultApi2() {
         Docket docket=new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
-                //分组名称
-                .groupName("2.X版本")
+                .groupName("2.XVersion")
                 .select()
-                //这里指定Controller扫描包路径(项目路径也行)
                 .apis(RequestHandlerSelectors.basePackage("com.tkmybaitsdemo.demo"))
                 .paths(PathSelectors.any())
                 .build();
@@ -33,8 +31,8 @@ public class Knife4jConfiguration {
     }
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("不重要")
-                .description("测试名称不重要")
+                .title("11")
+                .description("111")
                 .termsOfServiceUrl("http://localhost:8080/")
                 .contact("10086@mail.com")
                 .version("1.0")

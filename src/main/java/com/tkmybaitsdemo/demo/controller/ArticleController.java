@@ -1,15 +1,10 @@
 package com.tkmybaitsdemo.demo.controller;
 
 import com.tkmybaitsdemo.demo.entity.Article;
-import com.tkmybaitsdemo.demo.entity.Student;
 import com.tkmybaitsdemo.demo.service.ArticleService;
-import com.tkmybaitsdemo.demo.util.PageRequest;
-import com.tkmybaitsdemo.demo.util.PageResult;
-import com.tkmybaitsdemo.demo.util.PageUtils;
 import com.tkmybaitsdemo.demo.util.ResultBody;
 import io.swagger.annotations.*;
 import lombok.AllArgsConstructor;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -27,9 +22,9 @@ public class ArticleController {
 
     private final ArticleService articleService;
 
-    @ApiOperation(value = "根据学生id查询学生信息", notes = "根据学生id查询学生信息")
+    @ApiOperation(value = "get Article information", notes = "get Article information")
     @GetMapping(value = "/{keyword}")
-    ResultBody queryArticle(@RequestBody @PathVariable(name = "garName") String keyword) {
+    ResultBody queryArticle(@RequestBody @PathVariable(name = "keyword") String keyword) {
         List<Article> articleList = articleService.queryArticle(keyword);
         if(articleList.isEmpty()){
             return ResultBody.error("The article you are looking for does not exist!");
@@ -37,7 +32,7 @@ public class ArticleController {
         return ResultBody.success(articleList);
     }
 
-    @ApiOperation(value = "根据学生id查询学生信息", notes = "根据学生id查询学生信息")
+    @ApiOperation(value = "get all articles", notes = "get all articles")
     @GetMapping(value = "/all")
     ResultBody queryAllArticle() {
         List<Article> articleList = articleService.queryAllArticle();

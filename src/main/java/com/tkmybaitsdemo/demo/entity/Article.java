@@ -33,9 +33,7 @@ public class Article implements Serializable {
     private String author;
 
     @ApiModelProperty(name = "createdTime",notes = "created time")
-    @JsonFormat(pattern = "yyyy-MM-dd")
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date createdTime;
+    private String createdTime;
 
     @ApiModelProperty(name = "content",notes = "content of article")
     private String content;
