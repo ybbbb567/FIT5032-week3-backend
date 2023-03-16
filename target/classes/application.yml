@@ -13,8 +13,9 @@ spring:
 #         password: zhb22153753
   devtools:
     restart:
-      enabled: true  #设置开启热部署
-      additional-paths: src/main/java #重启目录
+      enabled: true
+      additional-paths: src/main/java
+
       exclude: WEB-INF/**
 logging:
   level:
