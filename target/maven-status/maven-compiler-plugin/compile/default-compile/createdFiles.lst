@@ -1,3 +1,4 @@
+com\tkmybaitsdemo\demo\Model\ClassificationModel.class
 com\tkmybaitsdemo\demo\util\PageUtils.class
 com\tkmybaitsdemo\demo\exception\BizException.class
 com\tkmybaitsdemo\demo\mapper\DisposeMapper.class
