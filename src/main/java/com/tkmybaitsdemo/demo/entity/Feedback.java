@@ -1,12 +1,15 @@
 package com.tkmybaitsdemo.demo.entity;
 
+import cn.hutool.core.date.DateTime;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
+import java.util.Date;
 
 /**
  * @author yb
@@ -16,7 +19,7 @@ import javax.validation.constraints.NotNull;
 public class Feedback {
     @Id
     @ApiModelProperty(name = "id",notes = "key")
-    private String id;
+    private Long id;
 
     @NotNull(message = "name cannot be null")
     @ApiModelProperty(name = "name",notes = "name")
@@ -37,7 +40,8 @@ public class Feedback {
     @NotNull(message = "createdTime cannot be null")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    @ApiModelProperty(name = "createdTime",notes = "created time")
-    private String createdTime;
+    @Column(name = "created_time")
+    @ApiModelProperty(name = "created_time",notes = "created time")
+    private DateTime createdTime;
 
 }

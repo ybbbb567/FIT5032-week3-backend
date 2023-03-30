@@ -22,11 +22,11 @@ public class FeedbackController {
     private final FeedbackService feedbackService;
 
     @ApiOperation(value = "add feedback information", notes = "add feedback information")
-    @PostMapping(value = "/")
-    ResultBody searchGarbage(@RequestBody Feedback feedback) {
+    @PostMapping(value = "/a")
+    ResultBody addFeedback(@RequestBody Feedback feedback) {
         if(!feedbackService.addFeedback(feedback)){
             return ResultBody.error("Sorry, add feedback failed!");
         }
-        return ResultBody.success();
+        return ResultBody.success("true");
     }
 }
