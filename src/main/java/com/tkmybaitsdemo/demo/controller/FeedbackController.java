@@ -38,7 +38,7 @@ public class FeedbackController {
     ResultBody getFeedback() {
         List<Feedback> feedbackList = feedbackService.getFeedback();
         if(feedbackList.isEmpty()){
-            return ResultBody.error("The feedback you are looking for does not exist!");
+            return ResultBody.error("No feedback exists!");
         }
         return ResultBody.success(feedbackList);
     }
