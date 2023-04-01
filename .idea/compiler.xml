@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="FIT5032-week3-backend" />
+        <module name="FIT5120-week3-backend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FIT5032-week3-backend" options="-parameters" />
+      <module name="FIT5120-week3-backend" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
   </component>

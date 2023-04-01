@@ -1,6 +1,7 @@
 package com.tkmybaitsdemo.demo.service.impl;
 
 import cn.hutool.core.util.ObjectUtil;
+import com.tkmybaitsdemo.demo.entity.Article;
 import com.tkmybaitsdemo.demo.entity.Feedback;
 import com.tkmybaitsdemo.demo.entity.Garbage;
 import com.tkmybaitsdemo.demo.mapper.FeedbackMapper;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 /**
  * @author yb
@@ -34,4 +36,10 @@ public class FeedbackServiceImpl extends AbstractService<Feedback> implements Fe
         }
         return false;
     }
+
+    @Override
+    public List<Feedback> getFeedback() {
+        return feedbackMapper.selectAll();
+    }
+
 }
