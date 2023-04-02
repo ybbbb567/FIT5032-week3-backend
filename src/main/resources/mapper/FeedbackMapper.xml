@@ -7,6 +7,6 @@
         <result column="email" jdbcType="VARCHAR" property="email" />
         <result column="rate" jdbcType="INTEGER" property="rate" />
         <result column="content" jdbcType="VARCHAR" property="content" />
-        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime"/>
     </resultMap>
 </mapper>

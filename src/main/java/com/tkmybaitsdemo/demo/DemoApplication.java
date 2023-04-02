@@ -1,5 +1,6 @@
 package com.tkmybaitsdemo.demo;
 
+import com.tkmybaitsdemo.demo.model.ClassificationModel;
 import com.tkmybaitsdemo.demo.util.SnowflakeIdGenerator;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,4 +22,8 @@ public class DemoApplication {
         return new SnowflakeIdGenerator(1,1);
     }
 
+    @Bean
+    public String pmmlFileName() {
+        return "src/main/resources/XGBclassifier.pmml";
+    }
 }

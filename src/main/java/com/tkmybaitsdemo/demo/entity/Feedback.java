@@ -42,6 +42,6 @@ public class Feedback {
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Column(name = "created_time")
     @ApiModelProperty(name = "created_time",notes = "created time")
-    private DateTime createdTime;
+    private Date createdTime;
 
 }
