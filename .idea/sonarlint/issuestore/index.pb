@@ -77,8 +77,6 @@ G.idea/sonarlint/issuestore/3/7/3728cb11138f0b780f399cb98d11d237e9d6bdfa,5\6\56
 w
 G.idea/sonarlint/issuestore/9/4/941ec2c6d41d87215530876667e68d80f0f2894d,5\c\5c02a33421668320411e31311652918ef9835c09
 w
-G.idea/sonarlint/issuestore/a/2/a2f790fdb39b1ca435062d4e47d6be32e24c2d3c,5\0\50fcbf2d362c242140dc86531581aca935d95e2b
-w
 G.idea/sonarlint/issuestore/f/7/f7064b14984ca8dd992477ed65371170536164b1,2\7\2796e1e34102007ff5a77d98c2a46c081c91b758
 w
 G.idea/sonarlint/issuestore/c/f/cf6132580f20fd16b3392873e777eadac343cd10,7\4\74a2cc060cd88d6a304f5dbd7c0a5a38649edd60
@@ -134,8 +132,6 @@ p
 @src/main/java/com/tkmybaitsdemo/demo/service/ArticleService.java,c\d\cdf2dff2b568bfbbbf91f7d719bc3d53357e2a1a
 v
 Fsrc/main/java/com/tkmybaitsdemo/demo/controller/ArticleController.java,c\5\c5037931e3479a5c9e78ff80c00c71b7cd630719
-w
-Gsrc/main/java/com/tkmybaitsdemo/demo/controller/FeedbackController.java,e\e\eea15acc9a33ca849b6a388f3b23037b46fd0fd3
 h
 8src/main/java/com/tkmybaitsdemo/demo/entity/Article.java,a\5\a5a925a6a3c6f84b0f639c15a93f472c2ec5d9f8
 f
