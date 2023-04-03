@@ -32,15 +32,15 @@ public class ClassificationModel {
      *
      * @param pmmlFileName pmml 文件路径
      */
-    public ClassificationModel(String pmmlFileName) {
+    public ClassificationModel(InputStream pmmlFileNameInputStream) {
         PMML pmml = null;
 
         try {
-            if (pmmlFileName != null) {
-                InputStream is = new FileInputStream(pmmlFileName);
-                pmml = PMMLUtil.unmarshal(is);
+            if (pmmlFileNameInputStream != null) {
+//                InputStream is = new FileInputStream(pmmlFileNameInputStream);
+                pmml = PMMLUtil.unmarshal(pmmlFileNameInputStream);
                 try {
-                    is.close();
+                    pmmlFileNameInputStream.close();
                 } catch (IOException e) {
                     System.out.println("InputStream close error!");
                 }
@@ -54,8 +54,6 @@ public class ClassificationModel {
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (JAXBException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
@@ -100,7 +98,8 @@ public class ClassificationModel {
 //    }
 
     public static void main(String[] args) {
-        ClassificationModel clf = new ClassificationModel("src/main/resources/XGBclassifier.pmml"); //这里模型地址
+        InputStream inputStream = ClassificationModel.class.getClassLoader().getResourceAsStream("XGBclassifier.pmml");
+        ClassificationModel clf = new ClassificationModel(inputStream);  //这里模型地址
 //0:benign 1:defacement 2:phishing 3:malware
         List<String> featureNames = clf.getFeatureNames();
         System.out.println("feature: " + featureNames);
@@ -133,7 +132,8 @@ public class ClassificationModel {
 
 
     public ClassificationResultVO predict(String urlString){
-        ClassificationModel clf = new ClassificationModel("src/main/resources/XGBclassifier.pmml"); //这里模型地址
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("XGBclassifier.pmml");
+        ClassificationModel clf = new ClassificationModel(inputStream); //这里模型地址
 //0:benign 1:defacement 2:phishing 3:malware
         // 构建待预测数据
         Map<FieldName, Number> waitPreSample = new HashMap<>();
