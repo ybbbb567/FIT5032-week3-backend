@@ -291,8 +291,6 @@ G.idea/sonarlint/issuestore/9/6/96a4408838da9662ae324f4cf72c0170fb36ea62,6\3\63
 w
 G.idea/sonarlint/issuestore/3/8/389ba39c39b8ff646cc2e4a73ce20c0076a36864,2\1\21ce515b908b30696dad65e49c822a69fade634f
 w
-G.idea/sonarlint/issuestore/f/9/f98ae862920997c888a7fc21218f2297033b8736,3\8\3846e80d84e09e044408b7d1ecd8411da35eb27e
-w
 G.idea/sonarlint/issuestore/f/3/f3961fee72d33a5321ad6957795bbd7443d38f9b,2\f\2f41b66ac19d85546535d8037bd09a534898097a
 w
 G.idea/sonarlint/issuestore/e/e/eee2b82a40b7a72f2f0822cc9b819089e80801ee,a\1\a1618be50fe02cd58b031da68a2d11c9396f46b1

@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import tk.mybatis.spring.annotation.MapperScan;
 
+import java.io.InputStream;
+
 @MapperScan(basePackages = {"com.tkmybaitsdemo.demo.mapper"})
 @SpringBootApplication
 @Configuration
@@ -23,7 +25,7 @@ public class DemoApplication {
     }
 
     @Bean
-    public String pmmlFileName() {
-        return "src/main/resources/XGBclassifier.pmml";
+    public InputStream xgbClassifierInputStream()  {
+        return getClass().getResourceAsStream("/XGBclassifier.pmml");
     }
 }
