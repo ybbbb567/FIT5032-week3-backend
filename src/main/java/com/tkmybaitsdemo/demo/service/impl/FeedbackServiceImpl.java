@@ -9,9 +9,12 @@ import com.tkmybaitsdemo.demo.service.FeedbackService;
 import com.tkmybaitsdemo.demo.util.AbstractService;
 import com.tkmybaitsdemo.demo.util.SnowflakeIdGenerator;
 import lombok.AllArgsConstructor;
+import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 
+import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -23,6 +26,7 @@ import java.util.List;
 @Service
 @AllArgsConstructor
 public class FeedbackServiceImpl extends AbstractService<Feedback> implements FeedbackService {
+    @Resource
     private final FeedbackMapper feedbackMapper;
 
     @Autowired
@@ -39,7 +43,9 @@ public class FeedbackServiceImpl extends AbstractService<Feedback> implements Fe
 
     @Override
     public List<Feedback> getFeedback() {
-        return feedbackMapper.selectAll();
+        Example example = new Example(Feedback.class);
+        example.setOrderByClause("created_time DESC");
+        return feedbackMapper.selectByExample(example);
     }
 
 }
