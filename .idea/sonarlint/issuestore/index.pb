@@ -6,8 +6,6 @@
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 n
 >src/test/java/com/tkmybaitsdemo/demo/DemoApplicationTests.java,5\2\52935dd693d0b0d1d696433b65d76da5b41d0d4e
-p
-@src/main/java/com/tkmybaitsdemo/demo/service/DisposeService.java,2\6\26e337b0b9f00f264e9adbfb7216eb202cf52f83
 l
 <src/main/java/com/tkmybaitsdemo/demo/util/GeneratorUtil.java,d\9\d93c8f1b650dca75ca0c183bbc739ec16f40901a
 w
@@ -48,8 +46,6 @@ g
 7src/main/java/com/tkmybaitsdemo/demo/util/MyMapper.java,f\7\f7064b14984ca8dd992477ed65371170536164b1
 n
 >src/main/java/com/tkmybaitsdemo/demo/mapper/ArticleMapper.java,e\7\e761634b711d36834b5cf9ee0ec10fad333d60a3
-n
->src/main/java/com/tkmybaitsdemo/demo/mapper/GarbageMapper.java,c\6\c62d358f24fd9160ae3bf9b16aa329659f8dee65
 p
 @src/main/java/com/tkmybaitsdemo/demo/exception/BizException.java,7\f\7ff976ddee2f12e77d23127be575640f5db97a9e
 x
@@ -87,11 +83,7 @@ G.idea/sonarlint/issuestore/2/7/2796e1e34102007ff5a77d98c2a46c081c91b758,a\e\ae
 w
 G.idea/sonarlint/issuestore/5/c/5c02a33421668320411e31311652918ef9835c09,3\b\3bf85cd10413eee9a4aa68b9506736f41ef09a02
 w
-G.idea/sonarlint/issuestore/6/9/69f2fe3487b68e5cf47379dd089f4139bc38ef49,f\3\f3b7dfee64609a316e32df5d4d4cb22d99a51c5a
-w
 G.idea/sonarlint/issuestore/8/8/882d90fff24820e2e85c8b96455ed9c312abd663,3\1\31ada755d85b38e7fd4015aabed20d63a074683c
-w
-G.idea/sonarlint/issuestore/1/4/14bc1fb9850ab4d7367b21a3be168ce03cd1a11c,2\4\2437a2d228111bec379a5dc5230ccc51729ae39a
 w
 G.idea/sonarlint/issuestore/0/7/07b96804cd170a48d3dd9712f4d9bdbd9423d278,0\4\0483e590d78090ea4e6660709f173b29e86f548a
 w
@@ -120,16 +112,10 @@ s
 Csrc/main/java/com/tkmybaitsdemo/demo/util/SnowflakeIdGenerator.java,3\9\39d75e96aa74701aa0e992af1a1764890f0ba94c
 v
 Fsrc/main/java/com/tkmybaitsdemo/demo/controller/GarbageController.java,1\c\1c3f91be9c6841740310f72f443feb8d7626d1ed
-y
-Isrc/main/java/com/tkmybaitsdemo/demo/service/impl/ArticleServiceImpl.java,9\8\98964d9ad31e64e75d476585443911cfde670267
-p
-@src/main/java/com/tkmybaitsdemo/demo/service/ArticleService.java,c\d\cdf2dff2b568bfbbbf91f7d719bc3d53357e2a1a
 v
 Fsrc/main/java/com/tkmybaitsdemo/demo/controller/ArticleController.java,c\5\c5037931e3479a5c9e78ff80c00c71b7cd630719
 h
 8src/main/java/com/tkmybaitsdemo/demo/entity/Article.java,a\5\a5a925a6a3c6f84b0f639c15a93f472c2ec5d9f8
-f
-6src/main/java/com/tkmybaitsdemo/demo/vo/GarbageVO.java,2\1\213121353c46f7337db06435b4e51e7ce70f7756
 y
 Isrc/main/java/com/tkmybaitsdemo/demo/service/impl/DisposeServiceImpl.java,8\8\882d90fff24820e2e85c8b96455ed9c312abd663
 j

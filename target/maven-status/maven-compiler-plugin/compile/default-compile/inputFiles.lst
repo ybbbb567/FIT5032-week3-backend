@@ -1,4 +1,4 @@
-D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\controller\ClassidicationController.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\ClassificationServiceImpl.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\mapper\DisposeMapper.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\util\MyMapper.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\GarbageService.java
@@ -14,11 +14,13 @@ D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\ex
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\entity\Feedback.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\util\ResultBody.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\entity\Dispose.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\ClassificationService.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\util\AbstractService.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\entity\Article.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\controller\ArticleController.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\FeedbackServiceImpl.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\provider\StudentProvider.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\controller\ClassificationController.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\util\SnowflakeIdGenerator.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\controller\DisposeController.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\controller\GarbageController.java
@@ -27,7 +29,10 @@ D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\ha
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\util\PageResult.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\DemoApplication.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\mapper\ArticleMapper.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\vo\WebsiteVO.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\mapper\WebsiteMapper.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\vo\GarbageVO.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\entity\Website.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\mapper\FeedbackMapper.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\DisposeService.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\GarbageServiceImpl.java

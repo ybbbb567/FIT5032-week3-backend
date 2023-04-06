@@ -20,4 +20,6 @@ public class ClassificationResultVO {
     private String prob3;
 
 
+
+
 }
