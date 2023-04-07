@@ -13,13 +13,7 @@ G.idea/sonarlint/issuestore/9/1/91032d9dbd69cfe7b0a7436ac107a3f92c0bfb28,6\c\6c
 w
 G.idea/sonarlint/issuestore/0/3/0398ccd0f49298b10a3d76a47800d2ebecd49859,2\b\2b179fbe8d00d6818e998f6c3b532342e7e62d80
 w
-G.idea/sonarlint/issuestore/2/6/26e337b0b9f00f264e9adbfb7216eb202cf52f83,b\f\bfa4fbedecc7420bff7e11044d5c319cfbb64511
-w
 G.idea/sonarlint/issuestore/e/7/e761634b711d36834b5cf9ee0ec10fad333d60a3,c\5\c5916cc24de56440137d611d5897106ddb729a92
-w
-G.idea/sonarlint/issuestore/c/6/c62d358f24fd9160ae3bf9b16aa329659f8dee65,2\a\2ab885802c8661e4c037b49d20681ac71170f0e1
-w
-G.idea/sonarlint/issuestore/c/d/cdf2dff2b568bfbbbf91f7d719bc3d53357e2a1a,a\d\ad365c2f0fcad124f5c649f2f5765d63f34f69f4
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
 w
@@ -127,10 +121,6 @@ G.idea/sonarlint/issuestore/d/e/de2e0f8c4daf533305eed4d2cdea8d10a304a088,a\d\ad
 w
 G.idea/sonarlint/issuestore/3/b/3bf85cd10413eee9a4aa68b9506736f41ef09a02,2\2\22ff30e5f8cc55679b55c2ad9adbf1331bf8e761
 w
-G.idea/sonarlint/issuestore/9/8/98964d9ad31e64e75d476585443911cfde670267,d\f\dfa804843b344fa37f7881f245a278ce3fadc42a
-w
-G.idea/sonarlint/issuestore/2/4/2437a2d228111bec379a5dc5230ccc51729ae39a,a\e\aedcdafd9b4b7ef10a45c51c2b99b1f93ffeaea8
-w
 G.idea/sonarlint/issuestore/c/f/cfe8d398bc211030dee49a27ff6f704e0126f9a6,1\2\1207ff94faacae33403f129ace731ff4fc999425
 w
 G.idea/sonarlint/issuestore/3/1/31ada755d85b38e7fd4015aabed20d63a074683c,e\9\e93554dbcfa503630fa70ddd330b7f74b5357fc0
@@ -148,8 +138,6 @@ w
 G.idea/sonarlint/issuestore/a/e/ae94feaab22680f1af297a83132284322d0ff40c,8\c\8cce82112ed3784d5b88fd3e5dba60c43a8cec63
 w
 G.idea/sonarlint/issuestore/9/e/9eb738e432ace596043ae7e5f45cf14a0e9cfdb6,3\8\380e4ad83578befb8264f0d41c6a99aed3191783
-w
-G.idea/sonarlint/issuestore/f/3/f3b7dfee64609a316e32df5d4d4cb22d99a51c5a,1\7\1765c970c34e46b052124ff767651e72bee0dcfd
 w
 G.idea/sonarlint/issuestore/e/0/e0fe4405cc04d3128e8de126b9721808c526ea91,3\0\30674f611bde6903ae7dc56db80cac34f70ebc36
 w
