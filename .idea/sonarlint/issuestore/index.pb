@@ -32,10 +32,6 @@ w
 G.idea/sonarlint/issuestore/a/d/ad365c2f0fcad124f5c649f2f5765d63f34f69f4,e\9\e97dcea4c7b8f58164288e6abc026af5d0787579
 w
 G.idea/sonarlint/issuestore/2/a/2ab885802c8661e4c037b49d20681ac71170f0e1,c\f\cf6132580f20fd16b3392873e777eadac343cd10
-h
-8src/main/java/com/tkmybaitsdemo/demo/entity/Garbage.java,7\7\77237f30f552028ba15c59973f5712cc3d30c456
-h
-8src/main/java/com/tkmybaitsdemo/demo/entity/Dispose.java,f\f\ffa20c57b45f5585312693f6db3a8e7e8d7ed9c8
 g
 7src/main/java/com/tkmybaitsdemo/demo/util/MyMapper.java,f\7\f7064b14984ca8dd992477ed65371170536164b1
 n
@@ -46,8 +42,6 @@ x
 Hsrc/main/java/com/tkmybaitsdemo/demo/handler/GlobalExceptionHandler.java,9\1\91032d9dbd69cfe7b0a7436ac107a3f92c0bfb28
 v
 Fsrc/main/java/com/tkmybaitsdemo/demo/controller/DisposeController.java,3\1\31c89cc773c3885753fdde6c63d79ffaac0e47c8
-p
-@src/main/java/com/tkmybaitsdemo/demo/service/GarbageService.java,8\c\8cf489469e389d360ae95d90609a6158333baf1f
 n
 >src/main/java/com/tkmybaitsdemo/demo/mapper/DisposeMapper.java,0\7\07b96804cd170a48d3dd9712f4d9bdbd9423d278
 w
@@ -70,8 +64,6 @@ w
 G.idea/sonarlint/issuestore/f/7/f7064b14984ca8dd992477ed65371170536164b1,2\7\2796e1e34102007ff5a77d98c2a46c081c91b758
 w
 G.idea/sonarlint/issuestore/c/f/cf6132580f20fd16b3392873e777eadac343cd10,7\4\74a2cc060cd88d6a304f5dbd7c0a5a38649edd60
-y
-Isrc/main/java/com/tkmybaitsdemo/demo/service/impl/GarbageServiceImpl.java,6\e\6eadc975aa77927ead37b46fc6528713210bce0a
 w
 G.idea/sonarlint/issuestore/2/7/2796e1e34102007ff5a77d98c2a46c081c91b758,a\e\ae94feaab22680f1af297a83132284322d0ff40c
 w
@@ -108,8 +100,6 @@ v
 Fsrc/main/java/com/tkmybaitsdemo/demo/controller/GarbageController.java,1\c\1c3f91be9c6841740310f72f443feb8d7626d1ed
 v
 Fsrc/main/java/com/tkmybaitsdemo/demo/controller/ArticleController.java,c\5\c5037931e3479a5c9e78ff80c00c71b7cd630719
-h
-8src/main/java/com/tkmybaitsdemo/demo/entity/Article.java,a\5\a5a925a6a3c6f84b0f639c15a93f472c2ec5d9f8
 y
 Isrc/main/java/com/tkmybaitsdemo/demo/service/impl/DisposeServiceImpl.java,8\8\882d90fff24820e2e85c8b96455ed9c312abd663
 j
