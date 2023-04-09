@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;
+import java.net.URISyntaxException;
 
 /**
  * @author yb
@@ -34,7 +35,7 @@ public class ClassificationServiceImpl extends AbstractService<Website> implemen
     private ClassificationModel classificationModel;
 
     @Override
-    public WebsiteVO predict(String urlString) {
+    public WebsiteVO predict(String urlString) throws URISyntaxException {
         Example example = new Example(Website.class);
         Example.Criteria criteria = example.createCriteria();
         criteria.andEqualTo("link", urlString);

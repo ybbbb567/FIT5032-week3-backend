@@ -26,6 +26,6 @@ public class DemoApplication {
 
     @Bean
     public InputStream xgbClassifierInputStream()  {
-        return getClass().getResourceAsStream("/XGBclassifier.pmml");
+        return getClass().getResourceAsStream("/decision_tree4.pmml");
     }
 }

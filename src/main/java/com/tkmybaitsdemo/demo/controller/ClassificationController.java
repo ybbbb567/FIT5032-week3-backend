@@ -12,6 +12,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.net.URISyntaxException;
 import java.util.Map;
 
 
@@ -30,7 +31,7 @@ public class ClassificationController {
 
     @ApiOperation(value = "predict the link", notes = "predict the link")
     @PostMapping(value = "/predict")
-    ResultBody predict(@RequestBody Map<String, String> requestBody) {
+    ResultBody predict(@RequestBody Map<String, String> requestBody) throws URISyntaxException {
         String urlString = requestBody.get("link");
         WebsiteVO result = classificationService.predict(urlString);
         if (result == null) {
