@@ -1,0 +1,47 @@
+
+_
+java:S2147<"DCombine this catch with the one at line 58, which has the same body.(ˆÂâãøÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(–òôý
+B
+java:S19056",Remove this unnecessary cast to "Evaluator".(éÖ¯Å
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(ôõØ‹
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(©ûáÏùÿÿÿÿ
+M	java:S106s"9Replace this use of System.out or System.err by a logger.(Ùè {
+H
+java:S5855ƒ",Remove or rework this redundant alternative.(»’‡Ýýÿÿÿÿ
+H
+java:S5855À",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855À",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855Â",Remove or rework this redundant alternative.(„«™íþÿÿÿÿ
+H
+java:S5855À",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855¿",Remove or rework this redundant alternative.(ŒµØ ûÿÿÿÿ
+H
+java:S5855Ã",Remove or rework this redundant alternative.(¤Ò¿‚ýÿÿÿÿ
+C
+java:S5855Á",Remove or rework this redundant alternative.(ª¨¬
+H
+java:S5855Þ",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855Þ",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855à",Remove or rework this redundant alternative.(„«™íþÿÿÿÿ
+H
+java:S5855Þ",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855Ý",Remove or rework this redundant alternative.(ŒµØ ûÿÿÿÿ
+H
+java:S5855á",Remove or rework this redundant alternative.(¤Ò¿‚ýÿÿÿÿ
+C
+java:S5855ß",Remove or rework this redundant alternative.(ª¨¬
+k
+java:S5843¼"TSimplify this regular expression to reduce its complexity from 70 to the 20 allowed.(ëŽ½™
+p
+java:S5843Ú"TSimplify this regular expression to reduce its complexity from 70 to the 20 allowed.(û€±üÿÿÿÿ
+o
+java:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú“º–
+P
+java:S1141."5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ

@@ -1,0 +1,31 @@
+
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ÒÄ®ûÿÿÿÿ8ÕŠˆèú0
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(¦Ù²8ÕŠˆèú0
+R
+java:S1874/"0Remove this use of "exchange"; it is deprecated.(Õö—¨şÿÿÿÿ8ÖŠˆèú0
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(Õ‹Ä©úÿÿÿÿ8ØŠˆèú0
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(çÔ’‚8¢ûˆèú0
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(²Ä¯¬ûÿÿÿÿ8¢ûˆèú0
+U	java:S106="9Replace this use of System.out or System.err by a logger.(éèÒ„8¢ûˆèú0
+T	java:S106>"9Replace this use of System.out or System.err by a logger.(ğño8¢ûˆèú0
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(ò¤µæ8”Çèú0
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(Ùõ“ÿÿÿÿÿ8Ú¿”èú0
+{
+java:S2142G"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8£ûˆèú0
+œ
+java:S1130Z"€Remove the declaration of thrown exception 'java.security.cert.CertificateException', as it cannot be thrown from method's body.(£íÜÿûÿÿÿÿ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.( ×ãÕÿÿÿÿÿ
+<
+java:S1168c"&Return an empty array instead of null.(¥¹ï
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ıÛèú0
+w
+java:S1128"URemove this unused import 'org.springframework.web.reactive.function.BodyExtractors'.(ÔÃ—Àúÿÿÿÿ8ıÛèú0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ïÓ•èú0
+U
+java:S1144L"3Remove this unused private "getRedirectUrl" method.(äúÜ¶üÿÿÿÿ8øŠèú0
+S
+java:S1144g"6Remove this unused private "encodeCertificate" method.(ÎÑ¬ú8°­èú0
+…
+java:S1488S"cImmediately return this expression instead of assigning it to the temporary variable "redirectUrl".(ËÇ±ºıÿÿÿÿ8®ûˆèú0
