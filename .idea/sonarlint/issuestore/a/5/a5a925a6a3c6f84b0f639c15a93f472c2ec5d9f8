@@ -1,15 +1,0 @@
-
-c
-java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonFormat'.(ýÙè‹øÿÿÿÿ
-l
-java:S1128"QRemove this unused import 'org.springframework.format.annotation.DateTimeFormat'.(‡ˆôƒøÿÿÿÿ
-S
-java:S1128"=Remove this unused import 'javax.persistence.GeneratedValue'.(¤®À‚
-S
-java:S1128	"=Remove this unused import 'javax.persistence.GenerationType'.(ý÷õ¡
-S
-java:S1128"8Remove this unused import 'javax.persistence.Transient'.(Õ„¹ùÿÿÿÿÿ
-A
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

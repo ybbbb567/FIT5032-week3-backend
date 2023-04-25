@@ -1,19 +1,19 @@
 package com.tkmybaitsdemo.demo.controller;
 
 import com.tkmybaitsdemo.demo.entity.Website;
-import com.tkmybaitsdemo.demo.model.ClassificationModel;
 import com.tkmybaitsdemo.demo.service.ClassificationService;
 import com.tkmybaitsdemo.demo.util.ResultBody;
-import com.tkmybaitsdemo.demo.vo.ClassificationResultVO;
 import com.tkmybaitsdemo.demo.vo.WebsiteVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import java.util.Map;
 
 import java.net.URISyntaxException;
-import java.util.Map;
 
 
 /**

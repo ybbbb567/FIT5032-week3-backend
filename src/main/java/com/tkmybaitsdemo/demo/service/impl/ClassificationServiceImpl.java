@@ -6,7 +6,6 @@ import com.tkmybaitsdemo.demo.model.ClassificationModel;
 import com.tkmybaitsdemo.demo.service.ClassificationService;
 import com.tkmybaitsdemo.demo.util.AbstractService;
 import com.tkmybaitsdemo.demo.util.SnowflakeIdGenerator;
-import com.tkmybaitsdemo.demo.vo.ClassificationResultVO;
 import com.tkmybaitsdemo.demo.vo.WebsiteVO;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.BeanUtils;
@@ -15,7 +14,10 @@ import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;
+import java.io.*;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author yb
