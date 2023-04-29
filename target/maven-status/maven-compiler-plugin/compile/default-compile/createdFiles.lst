@@ -14,6 +14,7 @@ com\tkmybaitsdemo\demo\controller\ArticleController.class
 com\tkmybaitsdemo\demo\service\impl\ClassificationServiceImpl.class
 com\tkmybaitsdemo\demo\config\Knife4jConfiguration.class
 com\tkmybaitsdemo\demo\mapper\QuizMapper.class
+com\tkmybaitsdemo\demo\vo\SMSClasResultVO.class
 com\tkmybaitsdemo\demo\entity\News.class
 com\tkmybaitsdemo\demo\service\ClassificationService.class
 com\tkmybaitsdemo\demo\util\PageRequest.class

@@ -6,6 +6,7 @@ import com.tkmybaitsdemo.demo.model.ClassificationModel;
 import com.tkmybaitsdemo.demo.service.ClassificationService;
 import com.tkmybaitsdemo.demo.util.AbstractService;
 import com.tkmybaitsdemo.demo.util.SnowflakeIdGenerator;
+import com.tkmybaitsdemo.demo.vo.SMSClasResultVO;
 import com.tkmybaitsdemo.demo.vo.WebsiteVO;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.BeanUtils;
@@ -54,6 +55,11 @@ public class ClassificationServiceImpl extends AbstractService<Website> implemen
         }
         websiteVO.setPredict(classificationModel.predict(urlString));
         return websiteVO;
+    }
+
+    @Override
+    public SMSClasResultVO predictSMS(String message) {
+        return classificationModel.predictSMS(message);
     }
 
     @Override

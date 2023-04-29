@@ -1,6 +1,7 @@
 package com.tkmybaitsdemo.demo.model;
 
 import com.tkmybaitsdemo.demo.vo.ClassificationResultVO;
+import com.tkmybaitsdemo.demo.vo.SMSClasResultVO;
 import org.dmg.pmml.FieldName;
 import org.dmg.pmml.PMML;
 import org.jpmml.evaluator.*;
@@ -89,36 +90,29 @@ public class ClassificationModel {
 
 
     public static void main(String[] args) {
-        InputStream inputStream = ClassificationModel.class.getClassLoader().getResourceAsStream("decision_tree4.pmml");
+//        InputStream inputStream = ClassificationModel.class.getClassLoader().getResourceAsStream("decision_tree4.pmml");
+
+        InputStream inputStream = ClassificationModel.class.getClassLoader().getResourceAsStream("smsClassifier.pmml");
+
         ClassificationModel clf = new ClassificationModel(inputStream);
 //0:benign 1:defacement 2:phishing 3:malware
         List<String> featureNames = clf.getFeatureNames();
         System.out.println("feature: " + featureNames);
 
-        Map<FieldName, Number> waitPreSample = new HashMap<>();
-        waitPreSample.put(new FieldName("url_length"), 0);
-        waitPreSample.put(new FieldName("number_of_letters"), 4 / 53);
-        waitPreSample.put(new FieldName("number_of_digits"), 2);
-        waitPreSample.put(new FieldName("dotcom"), 10);
-        waitPreSample.put(new FieldName("codot"), 0);
-        waitPreSample.put(new FieldName("dotnet"), 3);
-        waitPreSample.put(new FieldName("upper_case_number"), 40);
-        waitPreSample.put(new FieldName("lower_case_number"), 53);
-        waitPreSample.put(new FieldName("dot_number"), 40);
-        waitPreSample.put(new FieldName("dot_info_number"), 0);
-        waitPreSample.put(new FieldName("www_dot_number"), 0);
-        waitPreSample.put(new FieldName("not_alphanumeric_number"), 0);
-        waitPreSample.put(new FieldName("percentage_number"), 0);
-        waitPreSample.put(new FieldName("forward_slash"), 1);
+
+
+
+        Map<FieldName, String> waitPreSample = new HashMap<>();
+        waitPreSample.put(new FieldName("cleaned_text"), "07732584351 - Rodger Burns - MSG = We tried to call you re your reply to our sms for a free nokia mobile + free camcorder. Please call now 08000930705 for");
+
 
 
         System.out.println("waitPreSample predict result: " + clf.getProbabilityDistribution(waitPreSample));
-//        System.out.println("waitPreSample predict result: " + clf.predict(String.valueOf(waitPreSample)).toString());
-//        System.out.println("waitPreSample predictProba result: " + clf.predictProba(waitPreSample).toString());
-
     }
 
-
+    /*
+    *url classification model
+    */
     public ClassificationResultVO predict(String urlString) throws URISyntaxException {
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream("decision_tree4.pmml");
         ClassificationModel clf = new ClassificationModel(inputStream);
@@ -279,6 +273,33 @@ public class ClassificationModel {
         resultVO.setProb2(df.format(Double.parseDouble(resultMap.get("probability(2)").toString())));
         resultVO.setProb3(df.format(Double.parseDouble(resultMap.get("probability(3)").toString())));
         return resultVO;
+    }
+
+    public SMSClasResultVO predictSMS(String message){
+        InputStream inputStream = ClassificationModel.class.getClassLoader().getResourceAsStream("smsClassifier.pmml");
+
+        ClassificationModel clf = new ClassificationModel(inputStream);
+//0:benign 1:defacement 2:phishing 3:malware
+        List<String> featureNames = clf.getFeatureNames();
+        System.out.println("feature: " + featureNames);
+
+
+
+
+        Map<FieldName, String> waitPreSample = new HashMap<>();
+        waitPreSample.put(new FieldName("cleaned_text"), message);
+
+        Map<String, ?> resultMap = clf.getProbabilityDistribution(waitPreSample);
+        String category = (String) resultMap.get("v1");
+
+        SMSClasResultVO smsClasResultVO = new SMSClasResultVO();
+        smsClasResultVO.setCategory(category);
+        DecimalFormat df = new DecimalFormat("#.##");
+        df.setRoundingMode(RoundingMode.HALF_UP);
+        smsClasResultVO.setProb0(df.format(Double.parseDouble(resultMap.get("probability(ham)").toString())));
+        smsClasResultVO.setProb1(df.format(Double.parseDouble(resultMap.get("probability(spam)").toString())));
+
+        return smsClasResultVO;
     }
 
 }

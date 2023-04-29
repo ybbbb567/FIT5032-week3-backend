@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import tk.mybatis.spring.annotation.MapperScan;
 
 import java.io.InputStream;
@@ -27,5 +28,10 @@ public class DemoApplication {
     @Bean
     public InputStream xgbClassifierInputStream()  {
         return getClass().getResourceAsStream("/decision_tree4.pmml");
+    }
+
+    @Primary
+    public InputStream smsClassifierInputStream()  {
+        return getClass().getResourceAsStream("/smsClassifier.pmml");
     }
 }
