@@ -1,0 +1,48 @@
+
+_
+java:S2147="DCombine this catch with the one at line 59, which has the same body.(ˆÂâãøÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(–òôı
+B
+java:S19057",Remove this unnecessary cast to "Evaluator".(éÖ¯Å
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(ôõØ‹
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(©ûáÏùÿÿÿÿ
+M	java:S106n"9Replace this use of System.out or System.err by a logger.(Ùè {
+G
+java:S5855}",Remove or rework this redundant alternative.(»’‡İıÿÿÿÿ
+H
+java:S5855º",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855º",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855¼",Remove or rework this redundant alternative.(„«™íşÿÿÿÿ
+H
+java:S5855º",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855¹",Remove or rework this redundant alternative.(ŒµØ ûÿÿÿÿ
+H
+java:S5855½",Remove or rework this redundant alternative.(¤Ò¿‚ıÿÿÿÿ
+C
+java:S5855»",Remove or rework this redundant alternative.(ª¨¬
+H
+java:S5855Ø",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855Ø",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855Ú",Remove or rework this redundant alternative.(„«™íşÿÿÿÿ
+H
+java:S5855Ø",Remove or rework this redundant alternative.(ß¡éêùÿÿÿÿ
+H
+java:S5855×",Remove or rework this redundant alternative.(ŒµØ ûÿÿÿÿ
+H
+java:S5855Û",Remove or rework this redundant alternative.(¤Ò¿‚ıÿÿÿÿ
+C
+java:S5855Ù",Remove or rework this redundant alternative.(ª¨¬
+T	java:S106œ"9Replace this use of System.out or System.err by a logger.(©ûáÏùÿÿÿÿ
+k
+java:S5843¶"TSimplify this regular expression to reduce its complexity from 70 to the 20 allowed.(ë½™
+p
+java:S5843Ô"TSimplify this regular expression to reduce its complexity from 70 to the 20 allowed.(û€±üÿÿÿÿ
+o
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú“º–
+P
+java:S1141/"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
