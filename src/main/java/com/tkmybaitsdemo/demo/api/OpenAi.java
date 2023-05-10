@@ -22,8 +22,7 @@ import java.util.List;
 @Component
 public class OpenAi {
 
-    @Value("${API_KEY}")
-    private String apiKey;
+    String apiKey = System.getenv("API_KEY");
 
     public  String chat(List<JSONObject> messages){
         try {
