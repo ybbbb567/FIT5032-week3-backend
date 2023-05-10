@@ -9,6 +9,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -20,14 +21,16 @@ import java.util.List;
  **/
 @Component
 public class OpenAi {
-    static final String apiKey = "Bearer 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";
+
+    @Value("${API_KEY}")
+    private String apiKey;
 
     public  String chat(List<JSONObject> messages){
         try {
             HttpClient httpClient = HttpClientBuilder.create().build();
             HttpPost request = new HttpPost("https://api.openai.com/v1/chat/completions");
             request.addHeader("Content-Type", "application/json");
-            request.addHeader("Authorization", apiKey);
+            request.addHeader("Authorization", "Bearer " + apiKey);
             String requestBody = "{\n" +
                     "  \"model\": \"gpt-3.5-turbo-0301\",\n" +
                     "  \"messages\":"+  JSON.toJSONString(messages) +
