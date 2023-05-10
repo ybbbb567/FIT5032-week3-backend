@@ -1,6 +1,7 @@
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\MapServiceImpl.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\mapper\DisposeMapper.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\util\MyMapper.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\api\OpenAi.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\DisposeServiceImpl.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\ArticleService.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\vo\MapVO.java
@@ -30,6 +31,7 @@ D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\co
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\ArticleServiceImpl.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\ClassificationServiceImpl.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\impl\QuizServiceImpl.java
+D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\controller\SimulateController.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\service\GarbageService.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\mapper\QuizMapper.java
 D:\FIT5120\backend\FIT5032-week3-backend\src\main\java\com\tkmybaitsdemo\demo\model\ClassificationModel.java

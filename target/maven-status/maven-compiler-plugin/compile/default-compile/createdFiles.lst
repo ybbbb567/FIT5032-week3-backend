@@ -1,5 +1,6 @@
 com\tkmybaitsdemo\demo\entity\Quiz.class
 com\tkmybaitsdemo\demo\exception\BizException.class
+com\tkmybaitsdemo\demo\controller\SimulateController.class
 com\tkmybaitsdemo\demo\service\impl\MapServiceImpl.class
 com\tkmybaitsdemo\demo\controller\MapController.class
 com\tkmybaitsdemo\demo\model\ClassificationModel.class
@@ -49,6 +50,7 @@ com\tkmybaitsdemo\demo\mapper\FeedbackMapper.class
 com\tkmybaitsdemo\demo\entity\Garbage.class
 com\tkmybaitsdemo\demo\util\SnowflakeIdGenerator.class
 com\tkmybaitsdemo\demo\entity\Website.class
+com\tkmybaitsdemo\demo\api\OpenAi.class
 com\tkmybaitsdemo\demo\vo\MapVO.class
 com\tkmybaitsdemo\demo\service\QuizService.class
 com\tkmybaitsdemo\demo\util\MyMapper.class
