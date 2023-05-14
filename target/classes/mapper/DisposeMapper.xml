@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.tkmybaitsdemo.demo.mapper.DisposeMapper">
-    <resultMap id="BaseResultMap" type="com.tkmybaitsdemo.demo.entity.Dispose">
-        <id column="id" jdbcType="VARCHAR" property="id" />
-        <result column="name" jdbcType="VARCHAR" property="name" />
-        <result column="dispose_way" jdbcType="VARCHAR" property="disposeWay" />
-    </resultMap>
-</mapper>

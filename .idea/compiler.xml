@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="FIT5032-week3-backend" />
-        <module name="FIT5120-week3-backend" />
       </profile>
     </annotationProcessing>
   </component>
