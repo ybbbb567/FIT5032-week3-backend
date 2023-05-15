@@ -87,8 +87,6 @@ G.idea/sonarlint/issuestore/a/d/ad776e48e2f81260d3fc233164413d0b69e67c29,e\a\ea
 w
 G.idea/sonarlint/issuestore/0/d/0d28653d051caac2a22e9fa58452afea58a3fe38,0\9\0935057ec1c3159496f7f86accd3e4b7ff59caab
 w
-G.idea/sonarlint/issuestore/1/b/1bf8c1ae1f2b65385bb3da17fa163961a5846be7,2\f\2fdfcd1ec2a0225800ab6003704eaabfe5d982ca
-w
 G.idea/sonarlint/issuestore/2/2/22ff30e5f8cc55679b55c2ad9adbf1331bf8e761,4\9\494a6edfdc3e4865e1de9bc75ef95d50b45f3421
 w
 G.idea/sonarlint/issuestore/e/9/e93554dbcfa503630fa70ddd330b7f74b5357fc0,8\d\8da1344dc261270ba978d2e50bff409a4bf86ca4
@@ -199,8 +197,6 @@ G.idea/sonarlint/issuestore/9/4/944356f0e6496362fa134338b33f7f8033768373,8\2\82
 w
 G.idea/sonarlint/issuestore/e/8/e8b3ecfe401db1a31b81711c802ff61876472582,c\4\c4ec525c6ff9a04015a6b8a895aad882be392668
 w
-G.idea/sonarlint/issuestore/c/0/c04c2ff81e3dbdb25e1f1444fea8a3239c1cbca8,d\6\d66f6ee44eaa33dcf36fcc099f68764f7928a8be
-w
 G.idea/sonarlint/issuestore/5/0/50755e0e83874062ac07033b646e8974715b2c5a,9\8\9831fd269d7a8f470e2b56af4518d5229582144f
 w
 G.idea/sonarlint/issuestore/2/c/2c547754add61c4bb1edbd98045750a351a81bdb,5\e\5e394d1433c37d90c0eefe2086319676ed16df3c
@@ -228,8 +224,6 @@ w
 G.idea/sonarlint/issuestore/2/a/2ab885802c8661e4c037b49d20681ac71170f0e1,c\f\cf6132580f20fd16b3392873e777eadac343cd10
 w
 G.idea/sonarlint/issuestore/d/0/d0c9cfbb76f66e784e79f5409057ca9941ec81f1,2\5\2501fabff1d238dcb24c3db954446db50d58f6a1
-w
-G.idea/sonarlint/issuestore/a/e/aef8d9c5662b9b503b76159c1343b5a4295da4fd,8\6\86d567b5d56974ebfc26e3583489c98e61a309f7
 i
 9src/main/java/com/tkmybaitsdemo/demo/util/ResultBody.java,0\c\0c85fba7b7b939bda3d241ce6c2405d8f1608465
 f
@@ -263,13 +257,9 @@ c
 w
 G.idea/sonarlint/issuestore/2/5/2501fabff1d238dcb24c3db954446db50d58f6a1,f\b\fbe00c45b4874a2d1c54b3b4af2b9b365050e14b
 w
-G.idea/sonarlint/issuestore/4/4/44f5c73edd164d3edc40984fe9a97a60312fc375,f\d\fd91749f18aa235225291dd43839c810b97c0639
-w
 G.idea/sonarlint/issuestore/8/6/86d567b5d56974ebfc26e3583489c98e61a309f7,f\7\f7b49817224fc077c5b97dd4da68fb02849aa474
 w
 G.idea/sonarlint/issuestore/f/3/f3b7dfee64609a316e32df5d4d4cb22d99a51c5a,1\7\1765c970c34e46b052124ff767651e72bee0dcfd
-w
-G.idea/sonarlint/issuestore/f/8/f8c1cde75cd03b0b490cd886030d1632f849dd5c,e\c\ecb81e40fdcc1e450c46a9b7045da7bbb6f7c64b
 w
 G.idea/sonarlint/issuestore/4/7/47effa64f21f34fef347996f53f34b35a40da30a,5\9\597e023f0791c9796bc3a5667b01e1e598d80317
 w
@@ -343,8 +333,6 @@ G.idea/sonarlint/issuestore/b/7/b70d20698d335d75189a32adef0d1d8b9db0bc79,3\0\30
 w
 G.idea/sonarlint/issuestore/9/1/9173ff185adb0fad9386c701b4d7de7f5dfba14d,8\9\89a2f432346644efa5eca26e19ffb0ca4470c1c7
 w
-G.idea/sonarlint/issuestore/6/9/693b2b632d052aba5c51bc28f07ffbb9973c9799,4\f\4fd547966fd05af49e3da1b628e5981aed041fe9
-w
 G.idea/sonarlint/issuestore/6/c/6cd31bdf6d39c0e9bf79f9eff54a390a41924117,d\e\deb19514291500edfa9fd6a2189bd7cf3260b385
 w
 G.idea/sonarlint/issuestore/1/9/19ae5f66b382955230a472995c8c2820b48e9061,4\4\4408a74cc7c2ca72689619cd83b0af504b65c6a5
@@ -352,10 +340,6 @@ w
 G.idea/sonarlint/issuestore/9/0/90ddac75572d9700a3bb1fa4b748c4f648d95a6f,e\e\eee2b82a40b7a72f2f0822cc9b819089e80801ee
 w
 G.idea/sonarlint/issuestore/8/3/834e70c92a688cc3c8ac67aac9087e11d4ef9d0a,7\2\72cc47f2df06b9a40821279f63213c3c53e7022a
-w
-G.idea/sonarlint/issuestore/9/1/91110a911578e28db86ae3a60fd35a5570f414b3,b\c\bc04598c379683806c34056c2c1770a17a161569
-w
-G.idea/sonarlint/issuestore/4/1/4100b96ef4262a9607e250be5cf0628c7e756b8f,f\f\ffeb6b1f98e7daf4e0c9873d750cc921272b36ed
 w
 G.idea/sonarlint/issuestore/4/2/4291a6ab95c696f29dcedea66516b99a0fd0f28a,e\f\ef4cd31a84c761223d0a9cdf11b67ca163eda157
 w
@@ -396,8 +380,6 @@ w
 G.idea/sonarlint/issuestore/b/c/bc04598c379683806c34056c2c1770a17a161569,2\7\279d6cfb07b602e6cc3f4f5260cbf403bede40cf
 w
 G.idea/sonarlint/issuestore/7/e/7e46ad1a1a35249077839d75b1645b2c503d9dbb,8\b\8ba72158b6115b25d87edf73eb7ac2d9045236bd
-w
-G.idea/sonarlint/issuestore/f/e/fec2ae632e5d44e264689db9a3b842fc0677cb7a,f\f\ff16548978a2d6119670f58f6eda5930dd7a3e10
 s
 Csrc/main/java/com/tkmybaitsdemo/demo/controller/QuizController.java,2\6\260ebbd895db3def1370cc2fff2d36c926d3f5db
 w
@@ -449,8 +431,6 @@ G.idea/sonarlint/issuestore/8/b/8be1db6379c940e022d129fa9fede56fe825e74a,1\b\1b
 w
 G.idea/sonarlint/issuestore/d/9/d95bd2d33aeebb86eb0ccd2919dc4049eeee73fb,0\5\05f12534db04408267a912163a1ee6cf836b28e5
 w
-G.idea/sonarlint/issuestore/7/a/7ad2760ef154e7f46d0e3f90a63d54a74c751ce9,0\3\03ca3ff46a815a9e029a6cdfcbc4917a7a6ded11
-w
 G.idea/sonarlint/issuestore/a/4/a4178026e4dfe49006afad0b0a44ee72abb03a83,7\c\7c4d0f542a83146492b23057347ccd228d55562e
 w
 G.idea/sonarlint/issuestore/2/a/2a7ce8cd3e26aa1a76a98852e41cf320267baf0a,a\4\a4a08f28fb074a9199480b3937e6359dadb03520
@@ -463,8 +443,6 @@ G.idea/sonarlint/issuestore/0/4/04b4594e1bacd85f591e82c08b9e4946554ce42a,4\1\41
 w
 G.idea/sonarlint/issuestore/a/5/a595ce665c98ff112b848fa23fa582fbcd7d90ec,7\6\76004a766fa2e1bee87d9f23ebbc2c558ad37147
 w
-G.idea/sonarlint/issuestore/6/4/64dd6a82af958ee96f63e90e93439a5d0f6e0983,5\5\551e1909149b33ab061323a4b3de0a1bbe2ccecc
-w
 G.idea/sonarlint/issuestore/5/a/5afccff34d711a6979ce05ee94b3b2a0eceae8da,8\6\866dd48aab9a42d33af212174a3b28086c51ec5f
 w
 G.idea/sonarlint/issuestore/5/0/509d86838f60834d4de61f6843245eb02fdbe136,4\d\4d836b373eb67dbf48c5d49ec6bdf64f9bc8b3d1
@@ -476,8 +454,6 @@ w
 G.idea/sonarlint/issuestore/0/6/0641bfbc9112596675abb4b4e533fa78384c9cf0,8\e\8eaf718e05ca012924f5caba1ac82661cd15f74c
 w
 G.idea/sonarlint/issuestore/7/d/7d90070e8f4478b987e902230531bfd1790c7d74,7\c\7c7853d763a701f6b814796e6b552cab79c58b44
-w
-G.idea/sonarlint/issuestore/a/b/ab89f03c7006c27db960f390f8ec7f32df71529f,9\4\94b5a0fdc611f3e44ce322c86bd039536bec728a
 w
 G.idea/sonarlint/issuestore/1/4/147595817b5a68fa2318e2dd51387e8adea770bf,b\4\b4b18f00bd76b6ae2110f355b3ba5e07e3e3677e
 w
