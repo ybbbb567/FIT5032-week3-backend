@@ -19,4 +19,6 @@ public class Template {
     private String age;
 
     private String type;
+
+    private String avatar;
 }

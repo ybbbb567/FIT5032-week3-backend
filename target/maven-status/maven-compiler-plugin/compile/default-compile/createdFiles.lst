@@ -24,6 +24,7 @@ com\tkmybaitsdemo\demo\service\ClassificationService.class
 com\tkmybaitsdemo\demo\util\PageRequest.class
 com\tkmybaitsdemo\demo\util\GeneratorUtil.class
 com\tkmybaitsdemo\demo\util\AbstractService.class
+com\tkmybaitsdemo\demo\entity\ReportHotline.class
 com\tkmybaitsdemo\demo\entity\Template.class
 com\tkmybaitsdemo\demo\entity\Course.class
 com\tkmybaitsdemo\demo\util\ResultBody.class
@@ -33,8 +34,10 @@ com\tkmybaitsdemo\demo\service\impl\SimulateServiceImpl.class
 com\tkmybaitsdemo\demo\vo\GarbageVO.class
 com\tkmybaitsdemo\demo\entity\Feedback.class
 com\tkmybaitsdemo\demo\mapper\ArticleMapper.class
+com\tkmybaitsdemo\demo\mapper\ReportHotlineMapper.class
 com\tkmybaitsdemo\demo\vo\WebsiteVO.class
 com\tkmybaitsdemo\demo\util\PageUtils.class
+com\tkmybaitsdemo\demo\mapper\ReportMapper.class
 com\tkmybaitsdemo\demo\util\HttpUtils.class
 com\tkmybaitsdemo\demo\mapper\DisposeMapper.class
 com\tkmybaitsdemo\demo\controller\GarbageController.class
